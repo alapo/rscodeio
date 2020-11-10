@@ -9,7 +9,7 @@
   --separator: rgb(68, 68, 68);
   --toolbar: rgb(37, 37, 38);
   --tab: rgb(45, 45, 45);
-  --selected-tab: var(--editor-background);
+  --selected-tab: rgb(38, 105, 54);
 
   /* syntax */
   --type-declaration: rgb(78, 201, 176);
@@ -46,12 +46,25 @@
 }
 
 .ace_cursor {
-  border-color: rgb(174, 175, 173);
+  border-color: rgb(255, 0, 229); /* Andrew changing cursor to bright pink */
   width: 2px;
 }
 
+.pm-cursor-color {
+    caret-color: rgb(255, 0, 229); /* Andrew changing cursor to bright pink in visual editor */
+}
+
 .ace_marker-layer .ace_selection {
-  background-color: #3a3d41;
+  background-color: #4cf3875c; /* Andrew changing cursor to hospital green */
+}
+
+.pm-background-color *::selection {
+    background-color: rgba(76, 243, 135, 0.36) !important; /* Andrew changing highlighted section in Visual editor to hospital green */
+}
+
+.pm-fixedwidth-font{
+    border-color: rgba(251, 251, 251, .5) !important; /* Andrew changing code section color in Visual editor to lime green */
+    color: #3fdc24; !important;
 }
 
 .ace_selection.ace_start {
