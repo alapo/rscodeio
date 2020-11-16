@@ -9,7 +9,7 @@
   --separator: rgb(68, 68, 68);
   --toolbar: rgb(37, 37, 38);
   --tab: rgb(45, 45, 45);
-  --selected-tab: rgb(38, 105, 54);
+  --selected-tab: rgb(38, 105, 54); /* APL Change color of the selected tab */
 
   /* syntax */
   --type-declaration: rgb(78, 201, 176);
